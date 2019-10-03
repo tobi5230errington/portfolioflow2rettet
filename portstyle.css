@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none; 
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20%;
+}
+.nav_links {
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    transition: all 0.3 ease 0s;
+}
+.nav_links li a:hover {
+    background: linear-gradient(to top, #84496d,#ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+button {
+    padding: 9px 25px;
+    background-color: #6c6c6c;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+button:hover {
+    background-color: #a5a5a5;
+}
+
+#index {
+    background-color: #000000; 
+    background-image: url(hehej-ht.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 75% 100%;
+    background-size: 600px 700px;
+    
+}
+body {
+    background-color: #000000;
+    
+}
+
+h1 {
+    color: white;
+    font-family: TitlingGothicFB Comp;
+    font-style: black;
+    font-size: 70px;
+    margin-left: 100px;
+    padding: 10px 70px;
+    background-position: 50% 50%;
+    padding-top: 70px;
+    
+}
+h2 {
+    color: grey;
+    font-family: montserrat, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    padding: 0px 70px;
+    margin-left: 100px;
+}
+.social {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.51);
+    justify-content: space-around;
+    font-family: montserrat, sans-serif;
+    font-size: 25px;
+    color: #9f9f9f; 
+    padding: 1%;
+    margin-top:  110px; 
+}
+.flex {
+    border-right: solid #a7a7a7;
+    padding-right: 10px;
+    
+}
+.social div a:hover {
+    background: linear-gradient(to top, #84496d,#ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+    
+.sig {
+    margin-left: 10%;
+}
+#kontakt {
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+    font-family: sans-serif;   
+}
+.kontakt-title{
+margin-top: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+    
+}
+.kontakt-title h1 {
+    font-size: 50px;
+    line-height: 10px;
+    padding: 40px;
+    margin-left: 0%;
+    
+    
+}
+.kontakt-title h2 {
+    font-size: 25px;
+    margin-left: 0%;
+    font-family: sans-serif;
+}
+form{
+    margin-top: 50px;
+    transition: all 1s ease-in-out;
+    
+}
+.form-kontrol {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+    resize: none;
+}
+input {
+    height: 45px;
+}
+form .send {
+    background: #6c6c6c;
+    border-color: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+form .send:hover {
+    background-color: #a5a5a5;
+    cursor: pointer;
+}
+#vaerker h1{
+    font-size: 60px;
+    padding: 0;
+    text-align: center;
+    margin-left: -2%;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+.slider{
+    width: 650px;
+    height: 400px;
+    background: url(Original%20);
+    margin: 30px auto;
+    animation: slide 20s infinite;
+    border-style: solid;
+    border-color: #bfbfbf;
+    
+}
+@keyframes slide{
+    25%{
+        background: url(Original%20)
+    }
+    50%{
+        background: url(Opgave%20cph.jpg)
+    }
+    75%{
+        background: url(Original%20)
+    }
+    100%{
+        background: url(Opgave%20cph.jpg)
+    }
+    
+}
